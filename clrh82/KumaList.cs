@@ -26,12 +26,14 @@ namespace clrh82 {
                         tryCount++;
                     }
                 }
-                while (tryCount < 2) {
+                int challenge = 3;
+                while (tryCount < 2 && 0<challenge) {
                     int index = _random.Next(9);
                     if (_ar[index].GetStatus() == Status.Idle) {
                         _ar[index].SetStatus(Status.Try);
                         tryCount++;
                     }
+                    challenge--;
 
                 }
             }

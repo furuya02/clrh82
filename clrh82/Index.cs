@@ -45,6 +45,7 @@ namespace clrh82{
 
 
         private void pictureBox3_MouseClick(object sender, MouseEventArgs e){
+            timer1.Enabled = false;
             int target = -1;
             if (sender == pictureBox1){
                 target = 0;
@@ -66,6 +67,7 @@ namespace clrh82{
                 target = 8;
             }
             _kumaList.Click(target);
+            timer1.Enabled = true;
         }
 
         private void Index_SizeChanged(object sender, EventArgs e){
@@ -118,6 +120,10 @@ namespace clrh82{
             _pictureList[7].Top = margin + size*2;
             _pictureList[8].Top = margin + size*2;
 
+        }
+
+        private void Index_KeyDown(object objSender, KeyEventArgs objArgs) {
+            //if()
         }
     }
 }

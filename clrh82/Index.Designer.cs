@@ -28,7 +28,6 @@ namespace clrh82 {
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Index));
-            this.imageList1 = new Gizmox.WebGUI.Forms.ImageList(this.components);
             this.pictureBox1 = new Gizmox.WebGUI.Forms.PictureBox();
             this.pictureBox2 = new Gizmox.WebGUI.Forms.PictureBox();
             this.pictureBox3 = new Gizmox.WebGUI.Forms.PictureBox();
@@ -39,6 +38,8 @@ namespace clrh82 {
             this.pictureBox8 = new Gizmox.WebGUI.Forms.PictureBox();
             this.pictureBox9 = new Gizmox.WebGUI.Forms.PictureBox();
             this.timer1 = new Gizmox.WebGUI.Forms.Timer(this.components);
+            this.imageList1 = new Gizmox.WebGUI.Forms.ImageList(this.components);
+            this.imageList2 = new Gizmox.WebGUI.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -49,35 +50,6 @@ namespace clrh82 {
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
-            // 
-            // imageList1
-            // 
-            this.imageList1.Images.AddRange(new Gizmox.WebGUI.Common.Resources.ResourceHandle[] {
-            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images")),
-            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images1")),
-            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images2")),
-            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images3")),
-            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images4")),
-            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images5")),
-            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images6")),
-            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images7")),
-            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images8")),
-            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images9")),
-            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images10")),
-            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images11"))});
-            this.imageList1.ImageSize = new System.Drawing.Size(0, 0);
-            this.imageList1.Images.SetKeyName(0, "a0.jpg");
-            this.imageList1.Images.SetKeyName(1, "a1.jpg");
-            this.imageList1.Images.SetKeyName(2, "a2.jpg");
-            this.imageList1.Images.SetKeyName(3, "a3.jpg");
-            this.imageList1.Images.SetKeyName(4, "a4.jpg");
-            this.imageList1.Images.SetKeyName(5, "a5.jpg");
-            this.imageList1.Images.SetKeyName(6, "a6.jpg");
-            this.imageList1.Images.SetKeyName(7, "a7.jpg");
-            this.imageList1.Images.SetKeyName(8, "a8.jpg");
-            this.imageList1.Images.SetKeyName(9, "a9.jpg");
-            this.imageList1.Images.SetKeyName(10, "a10.jpg");
-            this.imageList1.Images.SetKeyName(11, "a11.jpg");
             // 
             // pictureBox1
             // 
@@ -184,6 +156,39 @@ namespace clrh82 {
             this.timer1.Interval = 101;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // imageList1
+            // 
+            this.imageList1.Images.AddRange(new Gizmox.WebGUI.Common.Resources.ResourceHandle[] {
+            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images")),
+            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images1")),
+            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images2")),
+            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images3")),
+            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images4")),
+            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images5")),
+            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images6")),
+            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images7")),
+            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images8")),
+            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images9")),
+            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images10")),
+            new Gizmox.WebGUI.Common.Resources.ImageResourceHandle(resources.GetString("imageList1.Images11"))});
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.Images.SetKeyName(0, "000.jpg");
+            this.imageList1.Images.SetKeyName(1, "001.jpg");
+            this.imageList1.Images.SetKeyName(2, "002.jpg");
+            this.imageList1.Images.SetKeyName(3, "003.jpg");
+            this.imageList1.Images.SetKeyName(4, "004.jpg");
+            this.imageList1.Images.SetKeyName(5, "005.jpg");
+            this.imageList1.Images.SetKeyName(6, "006.jpg");
+            this.imageList1.Images.SetKeyName(7, "007.jpg");
+            this.imageList1.Images.SetKeyName(8, "008.jpg");
+            this.imageList1.Images.SetKeyName(9, "009.jpg");
+            this.imageList1.Images.SetKeyName(10, "010.jpg");
+            this.imageList1.Images.SetKeyName(11, "011.jpg");
+            // 
+            // imageList2
+            // 
+            this.imageList2.ImageSize = new System.Drawing.Size(16, 16);
+            // 
             // Index
             // 
             this.BackColor = System.Drawing.SystemColors.Window;
@@ -199,6 +204,7 @@ namespace clrh82 {
             this.FormBorderStyle = Gizmox.WebGUI.Forms.FormBorderStyle.Sizable;
             this.Size = new System.Drawing.Size(504, 504);
             this.Text = "Form2";
+            this.KeyDown += new Gizmox.WebGUI.Forms.KeyEventHandler(this.Index_KeyDown);
             this.SizeChanged += new System.EventHandler(this.Index_SizeChanged);
             this.RegisteredTimers = new Gizmox.WebGUI.Forms.Timer[] {
         this.timer1};
@@ -217,7 +223,6 @@ namespace clrh82 {
 
         #endregion
 
-        private ImageList imageList1;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
@@ -228,6 +233,8 @@ namespace clrh82 {
         private PictureBox pictureBox8;
         private PictureBox pictureBox9;
         private Timer timer1;
+        private ImageList imageList1;
+        private ImageList imageList2;
 
 
 

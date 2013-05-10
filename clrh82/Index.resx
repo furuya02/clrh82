@@ -117,42 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="imageList1.Images" xml:space="preserve">
-    <value>a0.jpg</value>
-  </data>
-  <data name="imageList1.Images1" xml:space="preserve">
-    <value>a1.jpg</value>
-  </data>
-  <data name="imageList1.Images2" xml:space="preserve">
-    <value>a2.jpg</value>
-  </data>
-  <data name="imageList1.Images3" xml:space="preserve">
-    <value>a3.jpg</value>
-  </data>
-  <data name="imageList1.Images4" xml:space="preserve">
-    <value>a4.jpg</value>
-  </data>
-  <data name="imageList1.Images5" xml:space="preserve">
-    <value>a5.jpg</value>
-  </data>
-  <data name="imageList1.Images6" xml:space="preserve">
-    <value>a6.jpg</value>
-  </data>
-  <data name="imageList1.Images7" xml:space="preserve">
-    <value>a7.jpg</value>
-  </data>
-  <data name="imageList1.Images8" xml:space="preserve">
-    <value>a8.jpg</value>
-  </data>
-  <data name="imageList1.Images9" xml:space="preserve">
-    <value>a9.jpg</value>
-  </data>
-  <data name="imageList1.Images10" xml:space="preserve">
-    <value>a10.jpg</value>
-  </data>
-  <data name="imageList1.Images11" xml:space="preserve">
-    <value>a11.jpg</value>
-  </data>
   <data name="pictureBox1.Image" xml:space="preserve">
     <value>a0.jpg</value>
   </data>
@@ -179,5 +143,41 @@
   </data>
   <data name="pictureBox9.Image" xml:space="preserve">
     <value>a0.jpg</value>
+  </data>
+  <data name="imageList1.Images" xml:space="preserve">
+    <value>000.jpg</value>
+  </data>
+  <data name="imageList1.Images1" xml:space="preserve">
+    <value>001.jpg</value>
+  </data>
+  <data name="imageList1.Images2" xml:space="preserve">
+    <value>002.jpg</value>
+  </data>
+  <data name="imageList1.Images3" xml:space="preserve">
+    <value>003.jpg</value>
+  </data>
+  <data name="imageList1.Images4" xml:space="preserve">
+    <value>004.jpg</value>
+  </data>
+  <data name="imageList1.Images5" xml:space="preserve">
+    <value>005.jpg</value>
+  </data>
+  <data name="imageList1.Images6" xml:space="preserve">
+    <value>006.jpg</value>
+  </data>
+  <data name="imageList1.Images7" xml:space="preserve">
+    <value>007.jpg</value>
+  </data>
+  <data name="imageList1.Images8" xml:space="preserve">
+    <value>008.jpg</value>
+  </data>
+  <data name="imageList1.Images9" xml:space="preserve">
+    <value>009.jpg</value>
+  </data>
+  <data name="imageList1.Images10" xml:space="preserve">
+    <value>010.jpg</value>
+  </data>
+  <data name="imageList1.Images11" xml:space="preserve">
+    <value>011.jpg</value>
   </data>
 </root>

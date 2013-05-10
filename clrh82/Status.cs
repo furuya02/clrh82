@@ -7,6 +7,7 @@ namespace clrh82 {
     public enum Status {
         Idle,
         Try,
-        Die
+        Die,
+        Sleep,
     }
 }
